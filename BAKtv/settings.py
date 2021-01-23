@@ -38,6 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'baktvapp.apps.BaktvappConfig',
+    'memeapp.apps.MemeappConfig',
+    'videoapp.apps.VideoappConfig',
+    'articleapp.apps.ArticleappConfig',
+    'authorapp.apps.AuthorappConfig',
 ]
 
 MIDDLEWARE = [
